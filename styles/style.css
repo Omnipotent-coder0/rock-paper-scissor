@@ -1,0 +1,35 @@
+.big-font{
+    font-size: 2.5em;
+}
+body{
+    background-color: #365486;
+}
+.rot{
+    transform: scaleX(-1);
+}
+.img2{
+    rotate: -90deg;
+}
+.img2:hover:hover{
+    margin-bottom: 1vh;
+    height : 19vh;
+}
+.img2:active{
+    transition: 0.3s;
+    rotate: -45deg;
+}
+.game{
+    margin: 40px auto;
+    padding: 4vh 0;
+    width: 45vh;
+    height: 30vh;
+    border:dotted rgb(64, 249, 13) 5px;
+    border-radius: 20px;
+    margin-bottom: rem;
+}
+img{
+    height: 20vh;
+}
+.clr{
+    color: rgb(64, 249, 13);
+}
