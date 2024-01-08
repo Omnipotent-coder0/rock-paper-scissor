@@ -7,7 +7,7 @@ function randomNumber(){
     return Math.floor(Math.random()*3)
 }
 
-var imgs = ['/images/rock_image.png','/images/paper_image.png','/images/scissors_image.png']
+var imgs = ['./images/rock_image.png','./images/paper_image.png','./images/scissors_image.png']
 
 function play(num){
     rn = randomNumber();
