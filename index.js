@@ -15,7 +15,7 @@ function play(num){
     if(num == rn){
         text.innerHTML = "Draw";
     }
-    else if(num == rn+1){
+    else if(num == (rn+1)%3){
         text.innerHTML = "You Win";
     }
     else{

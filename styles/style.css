@@ -6,6 +6,7 @@ body{
 }
 .rot{
     transform: scaleX(-1);
+    /* transition: 0.3s ease-in; */
 }
 .img2{
     rotate: -90deg;
